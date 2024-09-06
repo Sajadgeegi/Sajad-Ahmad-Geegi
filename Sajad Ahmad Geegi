@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sajad Ahmad Geegi - Economics Student | Karta Scholar">
+    <title>Sajad Ahmad Geegi - Economics Student</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Sajad Ahmad Geegi</h1>
+            <p>Economics Student | Karta Scholar</p>
+            <p>Email: <a href="mailto:sajad.g@ahduni.edu.in">sajad.g@ahduni.edu.in</a> | <a href="https://www.linkedin.com" target="_blank">LinkedIn</a> | Phone: +91 6005754657</p>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#objective">Objective</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#awards">Awards & Honors</a></li>
+            <li><a href="#activities">Extracurriculars</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="objective" class="container">
+        <h2>Objective</h2>
+        <p>I am a liberal, virtuous, and perseverant student pursuing a BA in Economics at Ahmedabad University. Passionate about economics and committed to contributing to the betterment of society, especially for underprivileged sections.</p>
+    </section>
+
+    <section id="education" class="container">
+        <h2>Education</h2>
+        <ul>
+            <li>Bachelor of Arts Honours in Economics | Ahmedabad University (July 2023 - Present)</li>
+            <li>Secondary School, Jawahar Navodaya Vidyalaya, Anantnag J&K (April 2022 - April 2023)</li>
+        </ul>
+    </section>
+
+    <section id="experience" class="container">
+        <h2>Experiences & Projects</h2>
+        <ul>
+            <li>Website Making (August 2023)</li>
+            <li>Infographic Project (November 2023)</li>
+            <li>Statistical Data Analysis Project (November 2023)</li>
+            <li>Python Project (October 2023)</li>
+            <li>Economics Article Analysis: Rise in Wheat Prices due to Climate Change (December 2023)</li>
+            <li>Field Surveys (August 2023)</li>
+            <li>E-Governance (Digital Applications) (2020-21)</li>
+            <li>R Programming Workshop (January 2024)</li>
+            <li>Volunteering in the Youth Festival - Decor Committee (January 2024)</li>
+            <li>Summer Internship in Gram Vikas (NGO) as Field Researcher (June - July 2024)</li>
+        </ul>
+    </section>
+
+    <section id="skills" class="container">
+        <h2>Skills</h2>
+        <ul>
+            <li>Microsoft Office (Excel, PowerPoint)</li>
+            <li>Google Workspace</li>
+            <li>Report Writing</li>
+            <li>Research Skills</li>
+            <li>Basic Coding (Python)</li>
+            <li>Communication</li>
+            <li>Teamwork</li>
+            <li>Problem-solving</li>
+            <li>Leadership</li>
+            <li>Presentation</li>
+            <li>Networking</li>
+        </ul>
+    </section>
+
+    <section id="awards" class="container">
+        <h2>Awards & Honors</h2>
+        <ul>
+            <li>Scholarship for Jawahar Navodaya Vidyalaya (July 2016)</li>
+            <li>Selected for International Health Improvement Campaign, Belarus (August 2019)</li>
+            <li>Participation Certificate - NCC Campaign, Jammu Nagrota (June 2019)</li>
+            <li>Karta Initiative Scholar (January 2023 - Present)</li>
+            <li>100% Scholarship for BA in Economics, Ahmedabad University (June 2023)</li>
+            <li>Certificate of Appreciation for Volunteering in Youth Festival (January 2024)</li>
+        </ul>
+    </section>
+
+    <section id="activities" class="container">
+        <h2>Extracurricular Activities</h2>
+        <ul>
+            <li>National Cadet Corps Captain - School Level</li>
+            <li>Badminton Team Captain - School Level</li>
+            <li>Cluster and Regional-Level Sports Participant</li>
+            <li>Photography Club Member</li>
+            <li>Entrepreneurship Club Member</li>
+            <li>Photography Workshops (September & January 2023)</li>
+            <li>Social Forum Member</li>
+        </ul>
+    </section>
+
+    <footer id="contact" class="container">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:sajad.g@ahduni.edu.in">sajad.g@ahduni.edu.in</a></p>
+        <p>Phone: +91 6005754657</p>
+        <p><a href="https://www.linkedin.com" target="_blank">LinkedIn</a></p>
+    </footer>
+</body>
+</html>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+header {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 5px;
+}
+
+header p {
+    margin: 5px 0;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #000000;
+    padding-bottom: 5px;
+}
+
+ul {
+    list-style-type: square;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+ul li {
+    margin: 8px 0;
+}
+
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 30px;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
